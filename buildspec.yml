@@ -8,6 +8,8 @@ phases:
         - curl https://bootstrap.pypa.io/pip/3.4/get-pip.py -o get-pip.py
         - python3 get-pip.py --user --force-reinstall
         - python3 -m pip install Flask
+        - source bin/activate
+        - virtualenv flask
   build:
     commands:
       - echo Build started on `date`
