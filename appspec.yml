@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /usr/lib/python3.7
     destination: /web/
 hooks:
   AfterInstall:
