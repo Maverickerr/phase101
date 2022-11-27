@@ -10,7 +10,7 @@ phases:
         - python3 -m pip install Flask
         - python3 -m pip install --user virtualenv
         - python3 -m venv venv
-        - source venv/bin/activate
+        - source /root/.local/bin
         - python3 -m pip install -r requirements.txt
   build:
     commands:
