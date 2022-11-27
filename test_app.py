@@ -4,7 +4,7 @@
 from web import myapp
 import unittest
 
-  python -m unittest test_app
+python -m unittest test_app
 
 
 class TestMyApp(unittest.TestCase):
