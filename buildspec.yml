@@ -5,7 +5,8 @@ phases:
     runtime-versions:
       python: python3.7
     commands:
-        - python3.7 -m pip install Flask
+        - cd usr/lib/python3.7/site-packages
+        - python3 -m pip install Flask
   build:
     commands:
       - echo Build started on `date`
