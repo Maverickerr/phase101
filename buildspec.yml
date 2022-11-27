@@ -5,7 +5,8 @@ phases:
     runtime-versions:
       python: python3.7
     commands:
-        - python3 -m ensurepip --upgrade
+        - curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+        - python3 get-pip.py --user --force-reinstall
         - python3 -m pip install Flask
   build:
     commands:
