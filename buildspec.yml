@@ -5,6 +5,7 @@ phases:
     runtime-versions:
       python: python3.7
     commands:
+        - python3 -m ensurepip --upgrade
         - python3 -m pip install Flask
   build:
     commands:
